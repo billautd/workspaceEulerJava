@@ -12,6 +12,10 @@ public class Main {
 //		System.out.println(EulerProblems.euler8());
 //		System.out.println(EulerProblems.euler9());
 //		System.out.println(EulerProblems.euler10());
-		System.out.println(EulerProblems.euler14());
+//		System.out.println(EulerProblems.euler13());
+//		System.out.println(EulerProblems.euler14());
+//		System.out.println(EulerProblems.euler16());
+		System.out.println(EulerProblems.euler17());
+//		System.out.println(EulerProblems.euler20());
 	}
 }

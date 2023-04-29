@@ -62,7 +62,7 @@ public class Utils {
 	}
 
 	/**
-	 * Calcualtes the values of the fibonacci sequence
+	 * Calculates the values of the fibonacci sequence
 	 * 
 	 * @param limit : Higher limit of possible value
 	 * @return List of all values below given limit, starting with values 1 and 2
@@ -203,5 +203,18 @@ public class Utils {
 			val++;
 		}
 		return primes;
+	}
+
+	/**
+	 * @param nbr : Number to compute
+	 * @return nbr!
+	 */
+	public static long factorial(final long nbr) {
+		long val = 1;
+		for (long i = 2; i <= nbr; i++) {
+			val *= i;
+			System.out.println(val);
+		}
+		return val;
 	}
 }
